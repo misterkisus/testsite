@@ -1,0 +1,58 @@
+html {
+    background-color: rgb(42, 42, 87);
+    color: #fff786;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* BEGIN (write your solution here) */
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+.price span{
+    color: white;
+    font-size: 3em;
+}
+
+.card {
+    width: 300px;
+    background-color:rgb(126, 126, 195);
+
+     padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header {
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.info-button {
+    background-color: #efb9b9;
+    display: block;
+    padding: 1em 0;
+  
+    color: white;
+  
+    /* BEGIN (write your solution here) */
+    
+    /* END */
+  
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    font-size: 0.7rem;
+}
